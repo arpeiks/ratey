@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "outDir": "dist",
+    "sourceMap": true,
+    "target": "es2017",
+    "declaration": true,
+    "module": "commonjs",
+    "skipLibCheck": true,
+    "alwaysStrict": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "esModuleInterop": true,
+    "strictNullChecks": true,
+    "allowUnusedLabels": true,
+    "noUnusedParameters": true,
+    "allowUnreachableCode": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}
