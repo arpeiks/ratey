@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "baseUrl": "src",
+    "baseUrl": "./",
     "outDir": "dist",
     "sourceMap": true,
     "target": "es2017",

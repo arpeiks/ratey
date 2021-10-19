@@ -1,12 +1,14 @@
-import rates from "./rates";
+import {
+  rates,
+  routes,
+  LOCALE,
+  EXTREME,
+  Address,
+  CURRENCY,
+  GetPriceDto,
+  DeliveryType,
+} from "./constants";
 import { Service } from "typedi";
-import { EXTREME, routes } from "../enums/routes";
-import { GetPriceDto } from "./price.dto";
-import { Address } from "../enums/address";
-import { DeliveryType } from "../enums/delivery-type";
-
-const LOCALE = "en-NG";
-const CURRENCY = "NGN";
 
 @Service()
 export class PriceService {

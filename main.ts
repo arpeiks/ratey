@@ -2,7 +2,7 @@ import "reflect-metadata";
 import dotenv from "dotenv";
 import express from "express";
 import { Container } from "typedi";
-import { PriceController } from "./price/price.controller";
+import { PriceController } from "./price.controller";
 import { useExpressServer, useContainer } from "routing-controllers";
 
 dotenv.config();

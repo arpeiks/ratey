@@ -1,5 +1,5 @@
 import { Service } from "typedi";
-import { GetPriceDto } from "./price.dto";
+import { GetPriceDto } from "./constants";
 import { PriceService } from "./price.service";
 import { Body, JsonController, Get } from "routing-controllers";
 
